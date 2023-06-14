@@ -1,0 +1,28 @@
+散列信息摘要框架 ¶
+简介
+安装/配置
+需求
+安装
+运行时配置
+资源类型
+预定义常量
+HashContext — The HashContext class
+HashContext::__construct — Private constructor to disallow direct instantiation
+HashContext::__serialize — Serializes the HashContext object
+HashContext::__unserialize — Deserializes the data parameter into a HashContext object
+Hash 函数
+hash_algos — 返回已注册的散列算法列表
+hash_copy — 拷贝哈希运算上下文
+hash_equals — 可防止时序攻击的字符串比较
+hash_file — 给指定文件的内容生成散列值
+hash_final — 结束增量散列且返回摘要结果
+hash_hkdf — Generate a HKDF key derivation of a supplied key input
+hash_hmac_algos — 返回适用于 hash_hmac 的已注册散列算法列表
+hash_hmac_file — 使用 HMAC 方法和给定文件的内容生成带密钥的散列值
+hash_hmac — 使用 HMAC 方法生成带有密钥的散列值
+hash_init — 初始化增量散列运算上下文
+hash_pbkdf2 — 生成所提供密码的 PBKDF2 密钥导出
+hash_update_file — 从文件向活跃的散列运算上下文中填充数据
+hash_update_stream — 从打开的流向活跃的散列运算上下文中填充数据
+hash_update — 向活跃的哈希运算上下文中填充数据
+hash — 生成散列值（消息摘要）
